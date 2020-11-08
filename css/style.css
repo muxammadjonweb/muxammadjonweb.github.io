@@ -94,7 +94,7 @@ line-height: 59px;
 /* identical to box height */
 
 
-color: #FFFFFF;
+color: red;
 
 
    }
@@ -736,6 +736,7 @@ color: #A5A5A5;
    }
    .firstheader1 h2 {
       font-size: 58px;
+      color: red;
    }
    .firstheader2 {
     display: flex;
@@ -744,6 +745,7 @@ color: #A5A5A5;
     margin-top: -8rem;
     width: 200px;
     height: 200px;
+    border: 10px solid red;
    }
    .firstheader1 {
     justify-content: center;
