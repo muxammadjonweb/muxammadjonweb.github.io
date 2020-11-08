@@ -1,2 +1,2 @@
 # muxammadjonweb.github.io
-My sayt
+ maysayt
