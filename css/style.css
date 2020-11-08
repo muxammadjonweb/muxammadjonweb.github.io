@@ -604,15 +604,6 @@ color: #A5A5A5;
    .menyuend {
     margin-left: 3rem;
    }
-      .firstheader2 {
-    display: flex;
-    justify-content: center;
-    margin-left: 2.5rem;
-    margin-top: -8rem;
-    width: 200px;
-    height: 200px;
-    border: 10px solid blue;
-   }
 }
 
 
@@ -622,15 +613,6 @@ color: #A5A5A5;
    }
    .second {
     margin-top: -3rem;
-   }
-      .firstheader2 {
-    display: flex;
-    justify-content: center;
-    margin-left: 2.5rem;
-    margin-top: -8rem;
-    width: 150px;
-    height: 150px;
-    border: 10px solid yellow;
    }
    .menyuend {
     margin-left: 1px;
@@ -737,15 +719,6 @@ color: #A5A5A5;
 @media (max-width: 767px) {
  .logo {
       margin-left: 10rem;
-   }
-      .firstheader2 {
-    display: flex;
-    justify-content: center;
-    margin-left: 2.5rem;
-    margin-top: -8rem;
-    width: 100px;
-    height: 100px;
-    border: 10px solid green;
    }
 
 }
