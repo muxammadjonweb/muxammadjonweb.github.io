@@ -1,5 +1,8 @@
- 
+ * {
+  transition: all .2s;
+ }
  .first {
+ 
 
 background: linear-gradient(0.01deg, #000000 , rgba(0, 0, 0, 1) 99.99%);
 padding-bottom: 5rem;
@@ -12,27 +15,34 @@ padding-bottom: 5rem;
     animation-timing-function: cubic-bezier(3.12,5.89,6.89,1.58);
    animation-iteration-count: 2;
 }
-
+body {
+  margin: 0 auto;
+  padding: 0;
+}
  .container {
 	max-width: 1170px;
 	margin: 0 auto;
    }
    .firtshead {
+    display: -webkit-flex;
+    display: -ms-flex;
    	display: flex;
-   	justify-content: space-around;
-   	padding-top: 3rem;
+    -ms-align-items:center;
+    align-items: center;
+   	justify-content: space-between;
+   	padding: 20px 0;
    }
-   .menyuend img{
-   	height: 20px;
-   	margin-top: 1rem;
-    margin-left: 1.5rem;
-   }
-   .menyuend {
-      margin-left: 37rem;
-   }
+  .menyuend {
+    display: inline-block;
+    padding: 0 70px;
+  }
+   .menyuend img {
+      height: 20px;
+    padding: 0 20px;
+  }
    .logo img {
    	height: 45px;
-      margin-left: -7rem;
+     
    }
    .firstheader1 p {
    max-width: 420px;
@@ -46,14 +56,15 @@ line-height: 28px;
 
 margin-left: -0.2rem;
 color: #FFFFFF;
+
    }
    .firstheader2 {
       position: absolute;
       margin-left: 40rem;
    	background: url(../img/my.jpg) no-repeat center;
    	background-size: cover;
-   	width: 400px;
-   	height:400px;
+   	width: 350px;
+   	height:350px;
    	border-radius: 50%;
    	border: 15px solid #fff;
 
@@ -63,11 +74,11 @@ color: #FFFFFF;
    }
    .firstheader {
    	display: flex;
-   	
-   	margin-top: 10rem;
+   	justify-content: space-between;
+    margin-top: 4rem;
    }
    .firstheader1 h3 {
-   	margin-bottom: -1rem;
+   	
 width: 126px;
 height: 27px;
 
@@ -633,8 +644,9 @@ color: #A5A5A5;
     border: 10px solid yellow;
    }
    .menyuend {
-    margin-left: 1px;
-   }
+    display: inline-block;
+    padding: 0 40px;
+}
    .firstheader1 p {
       margin-left: 4rem;
       font-size: 25px;
@@ -664,20 +676,18 @@ color: #A5A5A5;
       margin-left: 19rem;
 
    }
-   .secondtxt h2{
-      text-align: center;
-      justify-content: center;
-      margin-left: 17rem;
-      font-size: 38px;
-   }
-
-   .secondhead1 {
-    
-    flex-basis: 30%;
+  .secondtxt h2 {
+    text-align: center;
+    justify-content: center;
+    margin-left: 1rem;
+    font-size: 38px;
+}
+  .secondhead1 {
+    flex-basis: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 10rem;
-   }
+    margin-left: 3rem;
+}
    .secondhead1 img {
     height: 80px;
    }
@@ -693,10 +703,26 @@ color: #A5A5A5;
      
     }
     .rel_slider {
-      width: 900px;
-      margin-left: 2rem;
+      width: 800px;
+     
       
     }
+    .slide-item {
+      width: 200px;
+      height: 300px;
+    }
+   .slide-itemtxt {
+      width: 200px;
+      height: 300px;
+    margin-left: 1rem;
+   
+}
+.scripttxt p {
+  margin: 0 auto;
+  font-size: 10px;
+
+  max-width: 400px;
+}
     .footerhead {
       display: flex;
       justify-content: center;
@@ -741,19 +767,16 @@ color: #A5A5A5;
     .logo img {
       height: 40px;
     }
-      .firstheader2 {
-    
+ .firstheader2 {
     display: flex;
     justify-content: center;
-    margin-left: 14rem;
-    margin-top: -8rem;
-    width: 300px;
-    height: 300px;
-    border: 8px solid #fff;
-   }
-   .menyuend {
-    margin-left: 10rem;
-   }
+    margin-top: -3rem;
+    width: 200px;
+    height: 200px;
+    border: 8px solid brown;
+
+}
+   
    .firstheader1 {
      margin-top: 11rem;
      margin-left: 6rem;
@@ -761,6 +784,7 @@ color: #A5A5A5;
    .firstheader1 h2 {
     color: green;
    }
+  
 }
 
 @media (max-width: 320px) {
