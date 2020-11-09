@@ -597,195 +597,7 @@ color: #A5A5A5;
 
 
 
-@media (max-width: 1199px) {
-   .logo {
-      margin-left: -2rem;
-   }
-   .firstheader1{
-      margin-left: 5%;
-   }
-  .firstheader2 {
-    margin-top: -3rem;
-    width: 350px;
-    height: 350px;
-  }
-   .second {
-    margin-top: -2rem;
-   }
-   .menyuend {
-    margin-left: 3rem;
-   }
-      .firstheader2 {
-    display: flex;
-    justify-content: center;
-    margin-left: 2.5rem;
-    margin-top: -8rem;
-    width: 200px;
-    height: 200px;
-    border: 10px solid blue;
-   }
-}
 
-
-@media (max-width: 991px) {
-.logo {
-      margin-left: 1rem;
-   }
-   .second {
-    margin-top: -3rem;
-   }
-      .firstheader2 {
-    display: flex;
-    justify-content: center;
-    margin-left: 2.5rem;
-    margin-top: -8rem;
-    width: 150px;
-    height: 150px;
-    border: 10px solid yellow;
-   }
-   .menyuend {
-    display: inline-block;
-    padding: 0 40px;
-}
-   .firstheader1 p {
-      margin-left: 4rem;
-      font-size: 25px;
-      font-weight: normal;
-   }
-   .firstheader1 h2 {
-      margin-left: -2rem;
-      font-size: 58px;
-   }
-     .firstheader1 h3 {
-      margin-left: 12.5rem;
-      font-size: 32px;
-     }
-   .firstheader1 {
-
-      text-align: center;
-    margin-top: 22rem;
-    margin-left: 14rem;
-   }
-   .firstheader1 button {
-    margin-right: 3rem;
-    font-size: 16px;
-    margin-top: 4rem;
-   }
-   .firstheader2  {
-  
-      margin-left: 19rem;
-
-   }
-  .secondtxt h2 {
-    text-align: center;
-    justify-content: center;
-    margin-left: 1rem;
-    font-size: 38px;
-}
-  .secondhead1 {
-    flex-basis: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 3rem;
-}
-   .secondhead1 img {
-    height: 80px;
-   }
-    .secondhead1 p {
-      font-size: 20px;
-    }
-    .secondhead1 h3 {
-
-    }
-    .thirdhead {
-      display: flex;
-      justify-content: center;
-     
-    }
-    .rel_slider {
-      width: 800px;
-     
-      
-    }
-    .slide-item {
-      width: 200px;
-      height: 300px;
-    }
-   .slide-itemtxt {
-      width: 200px;
-      height: 300px;
-    margin-left: 1rem;
-   
-}
-.scripttxt p {
-  margin: 0 auto;
-  font-size: 10px;
-
-  max-width: 400px;
-}
-    .footerhead {
-      display: flex;
-      justify-content: center;
-     
-    }
-    .footerheader2 {
-      margin-top: 8rem;
-    }
-      .footerhead h2 {
-        font-size: 38px;
-      }
-     .footerheader {
-      display: flex;
-      flex-basis: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-     }
-     .footerleft h3 {
-      font-size: 38px;
-     }
-      .footerleft a {
-        font-size: 22px;
-        color: rgba(255, 187, 1, 1);
-      }
-     .footerleft2 h3 {
-      font-size: 38px;
-     }
-      .footerleft2 a {
-        font-size: 22px;
-           color: rgba(255, 187, 1, 1);
-      }
-      .footerleft2head2 {
-        margin-top: 6.5rem;
-      }
-}
-
-
-@media only screen and (max-width: 767px) {
- .logo {
-      margin-left: 5rem;
-   }
-    .logo img {
-      height: 40px;
-    }
- .firstheader2 {
-    display: flex;
-    justify-content: center;
-    margin-top: -3rem;
-    width: 200px;
-    height: 200px;
-    border: 8px solid brown;
-
-}
-   
-   .firstheader1 {
-     margin-top: 11rem;
-     margin-left: 6rem;
-   }
-   .firstheader1 h2 {
-    color: green;
-   }
-  
-}
 @media only screen and (max-width: 400px) {
    .firstheader2 {
     display: flex;
@@ -809,7 +621,7 @@ color: #A5A5A5;
 }
 .firstheader1 {
   text-align: center;
-    margin-top: 11rem;
+    padding-top: 11rem;
     margin-left: 1rem;
 }
 .firstheader1 h3 {
@@ -854,9 +666,18 @@ color: #A5A5A5;
     margin-left: 1rem;
     border: none;
 }
+.menyuend img {
+    height: 20px;
+    padding: 0 10px;
+}
+.firstheader2 {
+   
+    display: flex;
+    margin-left: 5.5rem;
+}
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
    .firstheader2 {
     display: flex;
     justify-content: center;
@@ -872,6 +693,10 @@ color: #A5A5A5;
 .menyuend {
     display: inline-block;
     padding: 0 1px;
+}
+.menyuend img {
+    height: 20px;
+    padding: 0 10px;
 }
 .firstheader2 {
     display: flex;
