@@ -1058,7 +1058,7 @@ background: #FFBB01;
 }
 
 
-@media only screen and (min-width: 400px) {
+@media  (max-width: 400px) {
   .firstheader1 button {
   width: 231px;
 height: 44px;
@@ -1089,6 +1089,7 @@ border-radius: 5px 5px 10px 10px;
     height: 30px;
     padding: 10px;
   }
+
   .menyuend {
     display: inline-block;
     padding: 0 14px;
@@ -1125,9 +1126,10 @@ border-radius: 5px 5px 10px 10px;
 }
 .firstheader1 h2 {
   font-size: 38px;
-  color: #fff;
+  color: #000;
    padding: 0;
     margin: 0;
+    width: 430px;
 }
 
 .firstheader1 p {
@@ -1144,7 +1146,7 @@ line-height: 120%;
 text-align: center;
 
 color: #FFFFFF;
-  padding: 0;
+  padding-left: 7rem;
     margin: 0;
 }
 .firstheader {
