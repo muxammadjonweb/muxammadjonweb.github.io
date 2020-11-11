@@ -1058,7 +1058,7 @@ background: #FFBB01;
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
   .firstheader1 button {
   width: 231px;
 height: 44px;
@@ -1129,6 +1129,7 @@ border-radius: 5px 5px 10px 10px;
    padding: 0;
     margin: 0;
 }
+
 .firstheader1 p {
  width: 220px;
 height: 105px;
@@ -1157,7 +1158,7 @@ color: #FFFFFF;
 .slide-itemtxt h2 {
   color: #fff;
   
-   width: 440px;
+   width: 400px;
 height: 28px;
 
 
@@ -1188,7 +1189,7 @@ color: #FFFFFF;
 
 }
 .slideimgheade h5{
-   width: 107px;
+   width: 100px;
 height: 19px;
 
 
@@ -1215,68 +1216,35 @@ color: #FFFFFF;
    justify-content: center;
 }
 
-.slide-itemimg img {
-   width: 270px;
-   height: 200px;
-  
-}
-.slide {
-   display: flex;
-   flex-direction: column;
-justify-content: center;
-align-items: center;
-}
 
-.slide-item {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
+
+
 .slideimgheader, .slideimgheader1 h4,h5 {
    color: #fff;
  
 }
 .slideimgheade {
-   display: flex;
-  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
-.slideimgheader, .slideimgheader1 {
-   display: flex;
-   justify-content: space-between;
-   max-width: 300px;
-}
-.simg img {
-   height: 25px;
-   vertical-align: bottom;
+
+.slidep {
+  display: flex;
 }
 
 
-.slide-itemtxt h2 {
- padding: 0;
- margin: 0;
- font-size: 18px;
 
-}
 
 .scripttxt h3, p {
    color: #fff;
   
 }
-.slidep {
-   display: flex;
- 
-}
-.slidepimg img {
-   height: 25px;
-  
-}
-.slide-itemimg  {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
+
 .scripttxt p{
-   max-width: 350px;
+   max-width: 300px;
  font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -1519,19 +1487,24 @@ background: #FFBB01;
 .slide-itemtxt {
   margin: 0;
   padding: 0;
-  text-align: center;
+  
 }
 .slide-itemtxt h2 {
   font-size: 10px;
 }
 .slideimgheader1 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 200px;
+  
+    max-width: 20px;
 
 }
+.slideimgheader {
+  max-width: 20px;
+}
+.sstyle{
+  vertical-align: top;
+}
 .slideimgheade {
-text-align: center;
+
 }
 .footerbox {
     width: 280px;
